@@ -45,7 +45,7 @@ evmosd tx staking delegate <validator-address> <amount>aphoton --from <delegator
 ### Undelegate
 
 ```
-evmosd tx staking unbond <validator-address> --from <delegator-address> --chain-id <chain-id> --gas auto
+evmosd tx staking unbond <validator-address> --from <delegator-address> --chain-id <chain-id> --fees=5000aphoton
 ```
 
 ### Unjail
@@ -69,7 +69,7 @@ evmosd query bank balances <wallet-address>
 ### Send photons
 
 ```
-evmosd tx bank send <from-address> <to-address> <amount>aphoton --gas auto​
+evmosd tx bank send <from-address> <to-address> <amount>aphoton --fees=5000aphoton
 ```
 
 ### Add key
